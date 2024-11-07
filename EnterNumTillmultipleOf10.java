@@ -4,6 +4,7 @@ public class Loops {
         //Keep entering numbers till user enter a multiple of 10.
         Scanner sc = new Scanner(System.in);
           do{
+            System.out.print("Enter your number : ");
             int num = sc.nextInt();
             if(num%10 == 0){
                 break;
