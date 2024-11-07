@@ -7,7 +7,7 @@ public class Loops {
         
         int reverse=0;
         while(n != 0){
-            int newNum = n%10; // it will give you reminder as n = 123 then reminder is 3
+            int lastDigit = n%10; // it will give you reminder as n = 123 then reminder is 3
             reverse = reverse*10 + newNum;
             n = n/10;
         }
