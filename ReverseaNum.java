@@ -8,7 +8,7 @@ public class Loops {
         int reverse=0;
         while(n != 0){
             int lastDigit = n%10; // it will give you reminder as n = 123 then reminder is 3
-            reverse = reverse*10 + newNum;
+            reverse = reverse*10 + lastDigit;
             n = n/10;
         }
         System.out.println("The Reverse number is : "+reverse);
